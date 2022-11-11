@@ -9,8 +9,22 @@ html {
   font-size: 100%;
 }
 
-table {
-  border: 2px;
-  border-collapse: collapse;
+table,
+th,
+td {
+  border: 2px solid black;
   padding: 5px;
+  border-collapse: collapse;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.recipe-img {
+  height: 15rem;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1rem;
 }
