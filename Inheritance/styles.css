@@ -1,0 +1,41 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 10%;
+  background-color: aliceblue;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.likes {
+  list-style-type: upper-roman;
+  font-weight: 500;
+  color: black;
+}
+
+#music {
+  color: brown;
+}
+
+#reading {
+  font-weight: 700;
+}
+
+h4 {
+  margin-bottom: 25px;
+}
+
+.dislikes {
+  list-style-type: square;
+  color: darkorange;
+}
+
+#pets {
+  color: red;
+}
