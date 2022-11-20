@@ -75,11 +75,12 @@ ul > li {
   padding: 8px;
 }
 
-.contact {
-  display: flex;
-  gap: 5px;
+footer a {
+  font-size: 1.5rem;
 }
 
-.contact > a {
-  font-size: 1.5rem;
+footer div {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
 }
